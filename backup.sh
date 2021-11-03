@@ -2,6 +2,7 @@
 
 # create backup file
 cd $SOURCE_DIR
+echo "Starting backup..."
 tmux send -t minecraft-server 'say Server backup starting. World no longer saving...' C-m
 tmux send -t minecraft-server /save-off ENTER
 tmux send -t minecraft-server /save-all ENTER
