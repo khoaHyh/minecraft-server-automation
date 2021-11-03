@@ -8,7 +8,7 @@ tmux send -t minecraft-server /save-all ENTER
 echo "Executed save-off."
 echo "Executed save-all."
 sleep 3
-tar -cvzf $HOME/minecraft-server_backup-`date +%d-%m-%y_%H_%M_%S`.tar.gz world
+tar -cvzf $HOME/mc-backups/mc-server_backup-`date +%d-%m-%y_%H_%M_%S`.tar.gz world
 echo "Backup world."
 tmux send -t minecraft-server /save-on ENTER
 echo "Executed save-on."
