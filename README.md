@@ -1,6 +1,6 @@
 # Minecraft Server Automation Scripts
 
-Start/Stop and Backup scripts for Minecraft servers on Ubuntu. Runs the server in [tmux](https://github.com/tmux/tmux) .
+Start/Stop and Backup scripts for Minecraft servers on Ubuntu. Runs the server in [tmux](https://github.com/tmux/tmux).
 
 ## Features
 
