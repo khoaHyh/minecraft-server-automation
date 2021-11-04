@@ -1,6 +1,6 @@
 # Minecraft Server Automation Scripts
 
-Start/Stop and Backup scripts for Minecraft servers on Ubuntu. Runs the server in a [tmux](https://github.com/tmux/tmux) session via [systemd](https://en.wikipedia.org/wiki/Systemd) as a daemonized service. 
+Start, Stop, and Backup scripts for Minecraft servers on Ubuntu. I am running the server in a [tmux](https://github.com/tmux/tmux) session via [systemd](https://en.wikipedia.org/wiki/Systemd) as a daemonized service. 
 
 ## Features
 
